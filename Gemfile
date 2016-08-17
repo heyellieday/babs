@@ -37,6 +37,7 @@ gem 'sidekiq', '~> 3.5', '>= 3.5.3'
 gem 'sidekiq-scheduler', '~> 2.0'
 gem 'puma'
 gem 'httparty'
+gem 'keen'
 
 
 group :development, :test do
