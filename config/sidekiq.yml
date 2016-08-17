@@ -1,0 +1,4 @@
+:schedule:
+  CacheStationsWorker:
+    every: 5m
+    class: CacheStationsWorker
