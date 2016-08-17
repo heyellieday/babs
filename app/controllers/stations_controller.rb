@@ -1,5 +1,5 @@
 class StationsController < ApplicationController
   def index
-    render json: []
+    render json: $redis.get("stations")
   end
 end

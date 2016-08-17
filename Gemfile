@@ -36,6 +36,7 @@ gem 'redis', '~> 3.2'
 gem 'sidekiq', '~> 3.5', '>= 3.5.3'
 gem 'sidekiq-scheduler', '~> 2.0'
 gem 'puma'
+gem 'httparty'
 
 
 group :development, :test do
